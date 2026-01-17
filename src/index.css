@@ -1,0 +1,22 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* ปิดการคุมดำ/เลือกข้อความทั่วหน้า แต่อนุญาตให้เลือกในฟิลด์อินพุต/textarea/select/button */
+html, body, #root, .app-root, .min-h-screen {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input, textarea, select {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
